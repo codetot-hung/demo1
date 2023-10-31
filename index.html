@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Du Lịch Việt</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="script.js">
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+   <link rel="stylesheet" href="./fontawesome-free-6.1.1-web/css/all.min.css">
+   <link style="border-radius: 5px;" rel="shortcut icon" href="./img/icon.png">
+
+
+
+</head>
+<body>
+    <!-- HEADER -->
+    <header id="header">
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+    
+        <a href="#" class="logo"><span>M</span>ytour</a>
+    
+        <nav class="navbar">
+            <a href="#">home</a>
+            <a href="#book">book</a>
+            <a href="#packages">packages</a>
+            <a href="#gallery">gallery</a>
+            <a href="#teams">teams</a>
+            <a href="#contact">contact</a>
+            <a href="#video">videos</a>
+        </nav>
+    
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+    
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+
+        <!-- navbar menu mobile -->
+        <div id="mobile-menu" class="mobile-menu-btn">
+            <i class="menu-icon fa-solid fa-bars"></i>
+        </div>
+        <!-- end mobile navbar -->
+    </header>
+
+
+    <!-- login form container  -->
+
+<div class="login-form-container">
+
+    <i class="fas fa-times" id="form-close"></i>
+
+    <form action="">
+        <h3>Login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="remember">
+        <label for="remember">Remember me</label>
+        <p>Forget password? <a href="#">Click here</a></p>
+        <p>Don't have and account? <a href="#">Register now</a></p>
+    </form>
+
+</div>
+    <!-- END HEADER -->
+
+
+
+    <!-- slider starts  -->
+
+
+
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <img src="./img/slider7.jpg" style="width:100%; height: 600px;">
+          <div class="text"></div>
+        </div>
+       
+        <div class="mySlides fade">
+          <img src="./img/slider4.jpg" style="width:100%; height: 600px;">
+          <div class="text"></div>
+        </div>
+       
+        <div class="mySlides fade">
+          <img src="./img/slider8.jpg" style="width:100%; height: 600px;">
+          <div class="text"></div>
+        </div>
+        <div class="mySlides fade">
+            <img src="http://divui.com/blog/wp-content/uploads/2018/05/Website-Banner-Large-Screen.jpg" style="width:100%; height: 600px;">
+            <div class="text"></div>
+          </div>
+      </div>
+
+
+      <br>
+       
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(0)"></span> 
+        <span class="dot" onclick="currentSlide(1)"></span> 
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
+
+
+
+<!-- end slider -->
+
+
+<!-- book starts  -->
+
+<section class="book" id="book">
+
+  <h1 class="heading">
+      <span>b</span>
+      <span>o</span>
+      <span>o</span>
+      <span>k</span>
+      <span class="space"></span>
+      <span>n</span>
+      <span>o</span>
+      <span>w</span>
+  </h1>
+
+  <div class="row">
+
+      <div class="image">
+          <img style="width: 615px; height: 511px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSdkd_1YqBXUNgbfV7suXIMCz3KOkfnF2tgxg&usqp=CAU" alt="">
+      </div>
+
+      <form action="">
+          <div class="inputBox">
+              <h3>where to</h3>
+              <input type="text" placeholder="place name">
+          </div>
+          <div class="inputBox">
+              <h3>how many</h3>
+              <input type="number" placeholder="number of guests">
+          </div>
+          <div class="inputBox">
+              <h3>arrivals</h3>
+              <input type="date">
+          </div>
+          <div class="inputBox">
+              <h3>leaving</h3>
+              <input type="date">
+          </div>
+          <input type="submit" class="btn" value="book now">
+      </form>
+
+  </div>
+
+</section>
+    <!-- end book -->
+
+<!-- packages starts  -->
+
+<section class="packages" id="packages">
+
+  <h1 class="heading">
+      <span>p</span>
+      <span>a</span>
+      <span>c</span>
+      <span>k</span>
+      <span>a</span>
+      <span>g</span>
+      <span>e</span>
+      <span>s</span>
+  </h1>
+
+  <div class="box-container">
+
+      <div class="box">
+          <img src="./img/dalat.jpg" alt="">
+          <div class="content">
+              <h3> <i class="fas fa-map-marker-alt"></i> đà lạt </h3>
+              <p>Đắm mình vào không khí 4 của 1 ngày tại Đà Lạt.Nơi tình yêu bắt đầu !</p>
+              <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+              </div>
+              <div class="price"> $120.00 <span>$200.00</span> </div>
+              <a href="#" class="btn">book now</a>
+          </div>
+      </div>
+
+      <div class="box">
+          <img src="./img/ninhbinh.jpg" alt="">
+          <div class="content">
+              <h3> <i class="fas fa-map-marker-alt"></i> ninh bình </h3>
+              <p>Khám phá khu du lịch đa dạng về mọi lĩnh vực cuộc sống.</p>
+              <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+              </div>
+              <div class="price"> $120.00 <span>$200.00</span> </div>
+              <a href="#" class="btn">book now</a>
+          </div>
+      </div>
+
+      <div class="box">
+          <img src="./img/samson.jpg" alt="">
+          <div class="content">
+              <h3> <i class="fas fa-map-marker-alt"></i> Sầm sơn </h3>
+              <p>đánh tan lo toan bục bội cùng cơn sóng vỗ tại thiên đường trên trần gian.</p>
+              <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+              </div>
+              <div class="price"> $120.00 <span>$200.00</span> </div>
+              <a href="#" class="btn">book now</a>
+          </div>
+      </div>
+
+      <div class="box">
+          <img src="./img/halong.jpg" alt="">
+          <div class="content">
+              <h3> <i class="fas fa-map-marker-alt"></i> hạ long  </h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+              <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+              </div>
+              <div class="price"> $120.00 <span>$200.00</span> </div>
+              <a href="#" class="btn">book now</a>
+          </div>
+      </div>
+
+      <div class="box">
+          <img src="./img/phúquoc.jpg" alt="">
+          <div class="content">
+              <h3> <i class="fas fa-map-marker-alt"></i> phú quốc </h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+              <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+              </div>
+              <div class="price"> $120.00 <span>$200.00</span> </div>
+              <a href="#" class="btn">book now</a>
+          </div>
+      </div>
+
+      <div class="box">
+          <img src="./img/sapa.jpg" alt="">
+          <div class="content">
+              <h3> <i class="fas fa-map-marker-alt"></i> sapa </h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, nam!</p>
+              <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+              </div>
+              <div class="price"> $120.00 <span>$200.00</span> </div>
+              <a href="#" class="btn">book now</a>
+          </div>
+      </div>
+
+  </div>
+
+</section>
+
+<!-- packages ends -->
+
+<!-- gallery starts  -->
+
+<section class="gallery" id="gallery">
+
+  <h1 class="heading">
+      <span>r</span>
+      <span>e</span>
+      <span>c</span>
+      <span>o</span>
+      <span>m</span>
+      <span>m</span>
+      <span>e</span>
+      <span>d</span>
+  </h1>
+
+  <div class="box-container">
+
+      <div class="box">
+          <img src="./img/tamcoc.jpg" alt="">
+          <div class="content">
+              <h3>amazing places</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+              <a href="#" class="btn">see more</a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="./img/quangbinh.jpg" alt="">
+          <div class="content">
+              <h3>amazing places</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+              <a href="#" class="btn">see more</a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="./img/báidinh.jpg" alt="">
+          <div class="content">
+              <h3>amazing places</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+              <a href="#" class="btn">see more</a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="./img/bana hill.jpg" alt="">
+          <div class="content">
+              <h3>amazing places</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+              <a href="#" class="btn">see more</a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="./img/cat ba.jpg" alt="">
+          <div class="content">
+              <h3>amazing places</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+              <a href="#" class="btn">see more</a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="./img/tam dao.jpg" alt="">
+          <div class="content">
+              <h3>amazing places</h3>
+              <p>Lorem ipsum doloro sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+              <a href="#" class="btn">see more</a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="./img/quynhon.jpg" alt="">
+          <div class="content">
+              <h3>amazing places</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+              <a href="#" class="btn">see more</a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="./img/daocoto.jpg" alt="">
+          <div class="content">
+              <h3>amazing places</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+              <a href="#" class="btn">see more</a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="./img/bái đính 2.jpg" alt="">
+          <div class="content">
+              <h3>amazing places</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, tenetur.</p>
+              <a href="#" class="btn">see more</a>
+          </div>
+      </div>
+
+  </div>
+
+</section>
+
+<!-- gallery ends -->
+
+<!-- teams section -->
+
+<section class="teams" id="teams">
+
+  <h1 class="heading">
+      <span>T</span>
+      <span>e</span>
+      <span>a</span>
+      <span>m</span>
+      <span>s</span>
+      
+  </h1>
+
+  <div class="swiper-container review-slider">
+
+      <div class="swiper-wrapper">
+
+          <div class="swiper-slide">
+              <div class="box">
+                  <img src="https://cdn.tuoitrethudo.com.vn/stores/news_dataimages/phamhuonggiang/032021/19/11/0947_dore-amon.jpg?rt=20210319110949" alt="">
+                  <h3>Nguyễn Hoàng Anh </h3>
+                  <p>Sinh viên trường Đại học Công nghệ Đông Á</p>
+                  <p>Mã sinh viên: 20200112</p>
+                  <p>Khoa Công nghệ thông tin</p>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                  </div>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="box">
+                  <img src="https://kenh14cdn.com/203336854389633024/2021/9/3/photo-1-16306417221131994914891.jpg" alt="">
+                  <h3>Nguyễn Tuấn Đạt</h3>
+                  <p>Sinh viên Đại học Công nghệ Đông Á</p>
+                  <p>Mã sinh viên:</p>
+                  <p>Khoa Công nghệ thông tin</p>
+                                    
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                  </div>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="box">
+                  <img src="https://dorahome.info/wp-content/uploads/2021/09/y-nghia-ten-nhan-vat-trong-doraemon.jpg" alt="">
+                  <h3>Vũ Quốc Hưng</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci quisquam sunt nesciunt fugiat odit minus illum asperiores dolorum enim sint quod ipsam distinctio molestias consectetur ducimus beatae, reprehenderit exercitationem!</p>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                  </div>
+              </div>
+          </div>
+          <div class="swiper-slide">
+              <div class="box">
+                  <img src="https://s1.dmcdn.net/v/TSGjO1XhSnKhBDDZv/x1080" alt="">
+                  <h3>Hoàng Khánh Duy</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa adipisci quisquam sunt nesciunt fugiat odit minus illum asperiores dolorum enim sint quod ipsam distinctio molestias consectetur ducimus beatae, reprehenderit exercitationem!</p>
+                  <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="far fa-star"></i>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+
+  </div>
+
+</section>
+
+<!-- teams ends -->
+
+<!-- contact starts  -->
+
+<section class="contact" id="contact">
+    
+  <h1 class="heading">
+      <span>c</span>
+      <span>o</span>
+      <span>n</span>
+      <span>t</span>
+      <span>a</span>
+      <span>c</span>
+      <span>t</span>
+  </h1>
+
+  <div class="row">
+
+      <div class="img">
+          <img   src="img/máy bay.jpg" alt="">
+      </div>
+
+      <form action="">
+          <div class="inputBox">
+              <input type="text" placeholder="name" required>
+              <input type="email" placeholder="email" required>
+          </div>
+          <div class="inputBox">
+              <input type="number" placeholder="number" required>
+              <input type="text" placeholder="subject" required>
+          </div>
+          <textarea placeholder="message" required name="" id="" cols="30" rows="10"></textarea>
+          <input type="submit" class="btn" value="send message">
+      </form>
+
+  </div>
+  
+</section>
+
+<!-- contact ends -->
+
+<section class="videos" id="video">
+
+    <h1 class="heading">
+        <span>v</span>
+        <span>i</span>
+        <span>d</span>
+        <span>e</span>
+        <span>o</span>
+        <span>s</span>
+    </h1>
+
+    
+    <div class="video-youtube">
+        <iframe width="560" height="315" src="iframe width="560 height="315" src="https://www.youtube.com/watch?v=Au6LqK1UH8g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>"></iframe>
+
+        
+
+    </div>
+    
+
+</section>
+<!-- footer section  -->
+
+<section class="footer">
+
+  <div class="box-container">
+
+      <div class="box">           
+          <h3>about us</h3>
+          <a href=""><i class="fas fa-phone"></i>0813069568</a>
+          <a href=""><i class="fas fa-phone"></i>0393286495</a>
+          <a href=""><i class="fas fa-envelope"></i>20201341@eaut.edu.vn</a>
+          <a href=""><i class="fas fa-map-marker-alt"></i>Nam Từ Liêm, Hà Nội</a>
+         
+      </div>
+      <div class="box">
+          <h3>branch locations</h3>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i>hà nội</a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i>đà nẵng</a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i>Hải Phòng</a>
+          <a href="#"> <i class="fas fa-map-marker-alt"></i>TP HCM</a>
+      </div>
+      <div class="box">
+          <h3>quick links</h3>
+          <a href="#"> <i class="fas fa-arrow-right"></i>home</a>
+          <a href="#book"> <i class="fas fa-arrow-right"></i>book</a>
+          <a href="#packages"> <i class="fas fa-arrow-right"></i>packages</a>
+          <a href="#gallery"> <i class="fas fa-arrow-right"></i>gallery</a>
+          <a href="#teams"> <i class="fas fa-arrow-right"></i>teams</a>
+          <a href="#contact"> <i class="fas fa-arrow-right"></i>contact</a>
+      </div>
+      <div class="box">
+          <h3>follow us</h3>
+          <a href="https://www.facebook.com/thatquochung"><i class="fab fa-facebook-f"></i>facebook</a>
+          <a href="#"><i class="fab fa-instagram"></i>instagram</a>
+          <a href="#"><i class="fab fa-twitter"></i>twitter</a>
+      </div>
+
+  </div>
+
+  
+
+</section>
+<!-- end footer -->
+
+
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<!-- custom js file link  -->
+<script src="script.js"></script>
+
+</body>
+<script>
+  //khai báo biến slideIndex đại diện cho slide hiện tại
+  var slideIndex;
+  // KHai bào hàm hiển thị slide
+  function showSlides() {
+    var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+         slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+
+      slides[slideIndex].style.display = "block";  
+      dots[slideIndex].className += " active";
+      //chuyển đến slide tiếp theo
+      slideIndex++;
+    // tự động chuyển từ lide cuối về slide đầu
+    if(slideIndex > slides . length -1){
+        slideIndex = 0;
+
+    }
+    
+
+    // thời gian chuyển giữa các slide là 1 giây
+    setTimeout(showSlides, 3000);
+
+  }
+  //mặc định hiển thị slide đầu tiên 
+  showSlides(slideIndex = 0);
+
+
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+
+  
+</script>
+
+<script>
+    //Tạo một biến Var
+    //getElementById đi lấy header sử dụng js lấy ID header
+
+var header=document.getElementById('header');
+// In cái biến của header vừa lấy ra xem nhận lra được header không?
+console.log(header)
+
+var mobileMenu =document.getElementById('mobile-menu');
+console.log(mobileMenu)
+
+//CLICK VÀO MOBILE MENU
+mobileMenu. onclick=function(){
+    //đoạn code này sẽ được chạy khi click vào mobile menu
+    //hàm alert bật lên thông báo của trình duyệt
+    // tạo biến var để kiểm tra xem nó có đang mở hay không
+    // trong js === là để so sánh
+    // so sánh biến này (header.clientHeight) có bằng 46 hay không
+    //rồi nó trả lại kết quả cho thằng isClosed
+    // = trong JS nó sẽ gán từ phải qua trái, gán giá trị header.clientHeight === 46 trả về đúng hay sai rồi nó gán vào biến isClosed
+    var isClosed =header.clientHeight === 46;//đang đóng
+    //nếu đang đóng
+    if(isClosed){
+     //thì
+        header.style.height='auto';
+    }else{
+        //ngược lại
+        header.style.height='null';//'46px' có thể thay bằng null
+
+    }
+}
+</script>
+
+
+</html>
